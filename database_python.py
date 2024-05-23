@@ -1,5 +1,8 @@
 import psycopg2
 
+
+
+
 conn = psycopg2.connect(database="PyBase", user="postgres", password="0404")
 with conn.cursor() as cur:
     def delete_table(conn):
